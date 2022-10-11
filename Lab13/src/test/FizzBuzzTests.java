@@ -24,7 +24,7 @@ class FizzBuzzTests {
 	      assertEquals(expected,actual);
 	   }   @Test
 	   public void Input3ShouldBeFizz() {
-		      String expected = "Fizz";
+		      String expected ="Fizz";
 		      int number = 3;
 		      FizzBuzz fizzBuzz = new FizzBuzz();
 		      String actual = fizzBuzz.convert(number);
