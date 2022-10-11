@@ -1,7 +1,10 @@
 package main;
 
-public class FizzBuzz {
-    public String convert(int number){
-        return "1";
+public class FizzBuzz  {
+	public String convert(int number) {
+	if(number == 2){ 
+        return "2";
     }
+    return "1";
+}
 }
