@@ -22,5 +22,12 @@ class FizzBuzzTests {
 	      FizzBuzz fizzBuzz = new FizzBuzz();
 	      String actual = fizzBuzz.convert(number);
 	      assertEquals(expected,actual);
-	   }
+	   }   @Test
+	   public void Input3ShouldBeFizz() {
+		      String expected = "1";
+		      int number = 1;
+		      FizzBuzz fizzBuzz = new FizzBuzz();
+		      String actual = fizzBuzz.convert(number);
+		      assertEquals(expected,actual);
+		   }
 }
