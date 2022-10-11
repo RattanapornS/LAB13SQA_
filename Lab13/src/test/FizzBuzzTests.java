@@ -17,15 +17,15 @@ class FizzBuzzTests {
 	   }
 	   @Test
 	   public void Input2ShouldBe2() {
-	      String expected = "1";
-	      int number = 1;
+	      String expected = "2";
+	      int number = 2;
 	      FizzBuzz fizzBuzz = new FizzBuzz();
 	      String actual = fizzBuzz.convert(number);
 	      assertEquals(expected,actual);
 	   }   @Test
 	   public void Input3ShouldBeFizz() {
-		      String expected = "1";
-		      int number = 1;
+		      String expected = "Fizz";
+		      int number = 3;
 		      FizzBuzz fizzBuzz = new FizzBuzz();
 		      String actual = fizzBuzz.convert(number);
 		      assertEquals(expected,actual);
